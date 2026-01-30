@@ -95,7 +95,7 @@ To enable the Google Sign-in feature, follow these steps to configure your envir
 * **Create a New Project** and navigate to **APIs & Services > Credentials**.
 * Click **Create Credentials > OAuth client ID**.
 * Select **Web application** as the application type.
-* **Authorized redirect URIs:** Add `https://pos.jminnovatechsolution.co.ke/auth/google/callback` (or your production URL).
+* **Authorized redirect URIs:** Add `https://your url/auth/google/callback` (or your production URL).
 
 
 **2. Update Environment Variables (`.env`)**
@@ -105,8 +105,8 @@ Copy the Client ID and Secret into your project's `.env` file:
 
 ### 1. **Clone the repository**
 ```bash
-git clone git@github.com:Jmuthoga/-Authentication-Account-Management-System.git
-cd -Authentication-Account-Management-System
+git clone git@github.com:Jmuthoga/Authentication-Account-Management-System.git
+cd Authentication-Account-Management-System
 ```
 ### 2. **Install dependencies**
    ```bash
